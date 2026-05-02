@@ -55,7 +55,7 @@ HTML_SABLON = """
 
         .res-val { 
             font-weight: 800; 
-            color: #9b59b6;; 
+            color: #9b59b6; 
             font-family: 'Consolas', monospace; /* Vrednosti ostaju u 'kod' stilu radi preglednosti */
             font-size: 1.1em;
         }
