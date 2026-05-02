@@ -1,4 +1,4 @@
-Elektro Inženjer PRO ⚡
+# Elektro Inženjer PRO ⚡
 
 Elektro Inženjer PRO je moćna web aplikacija bazirana na Flask framework-u, dizajnirana da olakša svakodnevne inženjerske proračune. Namenjena je profesionalcima, studentima i hobistima u oblastima elektrotehnike, automatike i robotike.
 
@@ -26,8 +26,8 @@ Pratite ove korake kako biste podesili lokalno razvojno okruženje:
 
 Prvo, preuzmite kod sa GitHub-a:
 
-git clone https://github.com/grujo85/grujo85-elektro-inzenjer-pro.git
-cd ime-projekta
+git clone https://github.com/grujo85/elektro-inzenjer-pro.git
+cd elektro-inzenjer-pro
 
 
 2. Podešavanje virtuelnog okruženja
