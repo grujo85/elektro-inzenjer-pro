@@ -1,39 +1,64 @@
 Elektro Inženjer PRO ⚡
 
-Web aplikacija bazirana na Flask-u za razne inženjerske proračune (elektroinstalacije, motori, automatika, solarni sistemi, robotika).
+Elektro Inženjer PRO je moćna web aplikacija bazirana na Flask framework-u, dizajnirana da olakša svakodnevne inženjerske proračune. Namenjena je profesionalcima, studentima i hobistima u oblastima elektrotehnike, automatike i robotike.
 
-Karakteristike
+🚀 Karakteristike
 
-Elektro: Proračun struje, otpora i pada napona u kablovima.
+Aplikacija je podeljena na specijalizovane module za preciznu analizu:
 
-Motori: Analiza pogona, izbor kontaktora, podešavanje bimetala i moment.
+⚡ Elektro: Brzi proračun struje, otpora trošila i pada napona u kablovima (monofazni i trofazni sistemi).
 
-Automatika: Skaliranje 4-20mA signala i PT100 temperaturni senzori.
+⚙️ Motori: Detaljna analiza motornog pogona, preporuka adekvatnih kontaktora, podešavanje bimetalne zaštite i proračun momenta na vratilu.
 
-Kompenzacija: Proračun kVAr za popravku faktora snage.
+🤖 Automatika: Skaliranje industrijskih signala (4-20mA), analiza PT100 temperaturnih senzora i preporuke za PID tuning (Ziegler-Nichols).
 
-Solar: Dimenzionisanje panela, invertora i baterija.
+🔋 Kompenzacija: Proračun potrebne jalove snage (kVAr) za popravku faktora snage (cos φ) i dimenzionisanje opreme.
 
-Robotika: Statički i dinamički momenti robotske ruke.
+☀️ Solar: Projektovanje solarnih sistema – određivanje broja panela, snage invertora i kapaciteta baterija za off-grid sisteme.
 
-Instalacija
+🦾 Robotika: Proračun statičkog i dinamičkog momenta robotske ruke na osnovu mase tereta i kraka.
 
-Klonirajte repozitorijum:
+🛠️ Instalacija i Pokretanje
 
-git clone [https://github.com/VASE_KORISNICKO_IME/ime-projekta.git](https://github.com/VASE_KORISNICKO_IME/ime-projekta.git)
+Pratite ove korake kako biste podesili lokalno razvojno okruženje:
+
+1. Kloniranje projekta
+
+Prvo, preuzmite kod sa GitHub-a:
+
+git clone https://github.com/grujo85/grujo85-elektro-inzenjer-pro.git
 cd ime-projekta
 
 
-Napravite virtuelno okruženje i instalirajte zavisnosti:
+2. Podešavanje virtuelnog okruženja
 
+Preporučuje se korišćenje venv kako biste izolovali biblioteke:
+
+# Kreiranje okruženja
 python3 -m venv venv
+
+# Aktivacija (Linux/macOS)
 source venv/bin/activate
+
+# Aktivacija (Windows)
+# venv\Scripts\activate
+
+
+3. Instalacija zavisnosti
+
+Instalirajte sve potrebne pakete jednim klikom:
+
 pip install -r requirements.txt
 
 
-Pokrenite aplikaciju:
+4. Pokretanje aplikacije
+
+Pokrenite Flask server:
 
 python3 app.py
 
 
-Otvorite http://localhost:8501 u vašem pretraživaču.
+Nakon pokretanja, aplikaciji možete pristupiti putem pretraživača na adresi:
+👉 http://localhost:8501
+
+Napomena: Aplikacija je optimizovana za rad na portu 8501. Ukoliko želite da je koristite u lokalnoj mreži, konfiguracija je već podešena na 0.0.0.0.
